@@ -1,0 +1,5 @@
+project_moments_polarized.cpp  code can be used to calculate polarized moments using the fitted amplitudes from AmpTools.
+
+In this code one loops through directories corresponding to different M and t bins, retrieves the complex amplitudes corresponding
+to different amplitudes from fit resuls, claculates the moments using the expressions A9 and D8 from Mathiew et. al. paper and writes the 
+information in the output file created in the same directory as the code. The name of the output file should be given as an argument with option -o 
